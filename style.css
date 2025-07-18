@@ -1,0 +1,117 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    /* ⛔ prevents horizontal scrollbar */
+    box-sizing: border-box;
+    width: 100vw;
+    /* ✅ lock width to screen */
+}
+
+
+.one {
+    background-color: black;
+    height: 140px;
+    width: auto;
+    margin: -20px -20px 0 -20px;
+    border-style: solid;
+    padding-left: 70px;
+}
+
+.one p {
+    font-size: 20px;
+    visibility: visible;
+    color: white;
+    display: inline-block;
+    border-style: solid;
+    padding-block: 30px;
+    border-color: black;
+    margin-right: 60px;
+    position: relative;
+    bottom: 20%;
+    font-weight: 500;
+
+
+
+}
+
+img {
+    position: relative;
+    left: -60px;
+    top: 20px;
+    width: 130px;
+    height: 115px;
+}
+
+.search {
+
+
+    position: absolute;
+    border-radius: 15px;
+    top: 40px;
+    left: 700px;
+    width: 700px;
+    height: 50px;
+    font-size: 30px;
+
+}
+
+.button {
+    position: absolute;
+    top: 40px;
+    left: 1420px;
+    height: 50px;
+    width: 240px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.two {
+    background-color: brown;
+    border-style: hidden;
+    padding-bottom: 5%;
+    padding-top: 0.5%;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding-bottom: 20%;
+    overflow-x: auto;
+
+
+}
+
+.two p {
+
+    font-size: 40px;
+    visibility: visible;
+    color: black;
+    display: inline-block;
+    border-style: hidden;
+    border-color: black;
+    position: relative;
+    font-weight: 500;
+    bottom: 60px;
+    overflow-x: auto;
+
+
+}
+
+.two h1 {
+    font-size: 55px;
+}
+
+.wrapper {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.web,
+.c-prog,
+.courses {
+    cursor: pointer;
+}
